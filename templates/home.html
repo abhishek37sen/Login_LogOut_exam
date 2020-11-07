@@ -1,0 +1,16 @@
+<!DOCTYE html>
+{% extends 'base.html' %}
+{% block body_block %}
+    <div class="jumbotron">
+    <div class="container">
+        {% if message %}
+        <h4>{{ message }}</h4>
+        {% endif %}
+        <h1>WELCOME TO ABHISHEK EXAMS</h1>
+        <h2>Rules!</h2>
+        <ul>
+            <li>Rule-1: you should write one exam per days</li>
+        </ul>
+    </div>
+    </div>
+{% endblock %}
